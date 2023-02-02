@@ -48,9 +48,8 @@ class DBFacadeTest {
     }
 
     @Test
-    public void test() throws SQLException {
-        System.out.println("testing database connection, to see first name");
-        System.out.println("you are stupid");
+    public void testFirstName() throws SQLException {
+        System.out.println("testing database connection, to see first name of a user");
         String sql = "SELECT fname FROM startcode_test.usertable";
         try (ResultSet set = con.prepareStatement(sql).executeQuery()) {
             set.next();
@@ -58,4 +57,24 @@ class DBFacadeTest {
             assertEquals("Hans", actual);
         }
     }
+
+    @Test
+    public void testUserDetails() throws SQLException {
+        System.out.println("testing database connection, to see details of a user");
+        String sql = "SELECT fname, lname, pw, phone, address FROM startcode_test.usertable";
+        try (ResultSet set = con.prepareStatement(sql).executeQuery()) {
+            set.next();
+            String fname = set.getString("fname");
+            String lname = set.getString("lname");
+            String pw = set.getString("pw");
+            String phone = set.getString("phone");
+            String address = set.getString("address");
+            assertEquals("Hans", fname);
+            assertEquals("Hansen", lname);
+            assertEquals("Hemmelig123", pw);
+            assertEquals("40404040", phone);
+            assertEquals("Rolighedsvej 3", address);
+        }
+    }
+
 }

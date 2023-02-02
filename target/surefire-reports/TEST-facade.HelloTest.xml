@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DK"/>
     <property name="sun.boot.library.path" value="/Users/fillefilejs/Library/Java/JavaVirtualMachines/corretto-11.0.18/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/fillefilejs/IdeaProjects/tdd_demo1/target/surefire/surefirebooter3764024864952143969.jar /Users/fillefilejs/IdeaProjects/tdd_demo1/target/surefire 2023-02-01T15-22-00_706-jvmRun1 surefire5475099561438188233tmp surefire_03641429417228652455tmp"/>
+    <property name="sun.java.command" value="/Users/fillefilejs/IdeaProjects/tdd_demo1/target/surefire/surefirebooter7546880091896881116.jar /Users/fillefilejs/IdeaProjects/tdd_demo1/target/surefire 2023-02-02T11-16-29_229-jvmRun1 surefire11069403651083860874tmp surefire_013301937094569576442tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/fillefilejs/IdeaProjects/tdd_demo1/target/test-classes:/Users/fillefilejs/IdeaProjects/tdd_demo1/target/classes:/Users/fillefilejs/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/fillefilejs/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/fillefilejs/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/fillefilejs/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/fillefilejs/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/fillefilejs/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/fillefilejs/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/fillefilejs/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/fillefilejs/.m2/repository/mysql/mysql-connector-java/8.0.26/mysql-connector-java-8.0.26.jar:/Users/fillefilejs/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/fillefilejs/IdeaProjects/tdd_demo1/target/surefire/surefirebooter3764024864952143969.jar"/>
+    <property name="surefire.real.class.path" value="/Users/fillefilejs/IdeaProjects/tdd_demo1/target/surefire/surefirebooter7546880091896881116.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.18+10-LTS"/>
