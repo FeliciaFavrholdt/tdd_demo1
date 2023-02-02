@@ -47,6 +47,7 @@ class DBFacadeTest {
     void tearDown() {
     }
 
+    //US1) As a user I want to see a list of all user on the system by their names only
     @Test
     public void testFirstName() throws SQLException {
         System.out.println("testing database connection, to see first name of a user");
@@ -58,6 +59,7 @@ class DBFacadeTest {
         }
     }
 
+    //US2) As a user I want to see details of a specific user from the list
     @Test
     public void testUserDetails() throws SQLException {
         System.out.println("testing database connection, to see details of a user");
@@ -76,5 +78,7 @@ class DBFacadeTest {
             assertEquals("Rolighedsvej 3", address);
         }
     }
+
+    //US3) As a user I want to edit my own user details
 
 }
